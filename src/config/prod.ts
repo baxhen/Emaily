@@ -7,9 +7,9 @@ export const googleClientSecret = process.env.GOOGLE_CLIENT_SECRET;
 
 export const cookieKey = process.env.COOKIE_KEY;
 
-export const googleProxy = 'https://secret-beach-89810.herokuapp.com';
+export const googleProxy = 'https://safe-brushlands-69741.herokuapp.com';
 
-export const clientURI = 'https://secret-beach-89810.herokuapp.com';
+export const clientURI = 'https://safe-brushlands-69741.herokuapp.com';
 
 export const stripePublishableKey = process.env.STRIPE_PUBLISHABLE_KEY;
 export const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
