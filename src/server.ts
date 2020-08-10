@@ -36,6 +36,8 @@ mongoose.connect(mongoURI, {
 const app = express();
 
 app.use(bodyParser.json());
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use(
   cookieSession({
@@ -43,9 +45,6 @@ app.use(
     keys: [cookieKey],
   })
 );
-
-app.use(passport.initialize());
-app.use(passport.session());
 
 app.use(authRoutes);
 app.use(billingRoutes);
