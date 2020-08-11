@@ -50,6 +50,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Stripe](https://stripe.com/)
 - [SendGrid](https://sendgrid.com/)
 - [Heroku](https://www.heroku.com/)
+- [PassportJS](http://www.passportjs.org/)
 
 ## 💻 Projeto
 
